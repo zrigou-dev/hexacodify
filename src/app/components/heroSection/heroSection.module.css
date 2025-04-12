@@ -1,0 +1,12 @@
+.sectionHero {
+  background-image: url('https://images.pexels.com/photos/11167645/pexels-photo-11167645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.6);
+  color: #fff;
+}

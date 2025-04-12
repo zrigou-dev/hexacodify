@@ -1,0 +1,10 @@
+.header {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scrolled {
+  background: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
