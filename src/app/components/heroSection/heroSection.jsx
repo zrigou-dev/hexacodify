@@ -15,7 +15,10 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center h-full text-center">
         {/* Title */}
         <motion.h1
-          className="text-5xl sm:text-6xl font-extrabold mb-6 text-yellow-400"
+          className={
+            "text-5xl sm:text-6xl font-extrabold mb-6 text-yellow-400 " +
+            styles.title_hero
+          }
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -43,13 +46,19 @@ export default function HeroSection() {
         >
           <Link
             href="/contact"
-            className="bg-yellow-400 text-blue-900 font-semibold text-xl rounded-full px-8 py-2 hover:bg-yellow-500 flex justify-center items-center"
+            className={
+              "bg-yellow-400 text-blue-900 font-semibold text-xl rounded-full px-8 py-2 hover:bg-yellow-500 flex justify-center items-center " +
+              styles.button_hero
+            }
           >
             Contact US
           </Link>
           <Link
             href="/services"
-            className="bg-white text-yellow-400 border border-yellow-400 py-2 px-8 font-semibold text-xl rounded-full flex justify-center items-center hover:bg-yellow-400 hover:text-white"
+            className={
+              "bg-white text-yellow-400 border border-yellow-400 py-2 px-8 font-semibold text-xl rounded-full flex justify-center items-center hover:bg-yellow-400 hover:text-white " +
+              styles.button_hero
+            }
           >
             Our Services
           </Link>

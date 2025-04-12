@@ -124,6 +124,7 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
+                onClick={()=> setIsMenuOpen(false)}
                 className="block px-4 py-2 text-white hover:text-yellow-400"
               >
                 {link.name}
