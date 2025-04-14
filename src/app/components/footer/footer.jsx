@@ -69,11 +69,11 @@ export default function Footer() {
           <ul className="space-y-3">
             <li className="flex items-center space-x-3">
               <FaPhoneAlt className="text-yellow-400" />
-              <span>+212 600 123 456</span>
+              <span>+212 767496526</span>
             </li>
             <li className="flex items-center space-x-3">
               <FaEnvelope className="text-yellow-400" />
-              <span>info@hexacodify.com</span>
+              <span>contact@hexacodify.com</span>
             </li>
           </ul>
           {/* <div className="flex space-x-4 mt-6">
@@ -108,8 +108,8 @@ export default function Footer() {
       {/* Bottom Footer */}
       <div className="mt-12 border-t border-gray-600 pt-6 text-center">
         <p className="text-sm text-gray-400">
-          © 2025 Freelancer Team. All rights reserved. Powered by Creativity &
-          Passion.
+          © 2025 HexaCodify. All rights reserved. Powered by Creativity &
+          Passion ❤💖.
         </p>
       </div>
     </footer>

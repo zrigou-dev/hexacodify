@@ -23,13 +23,33 @@ const geistMono = Geist_Mono({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>Web & Mobile Development Experts | Your Company Name</title>
+        <meta
+          name="description"
+          content="We are a team of expert web and mobile app developers, delivering high-quality solutions for your digital needs."
+        />
+        <meta
+          name="keywords"
+          content="web development, mobile app development, software development, mobile applications, responsive websites, app developers"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta
+          property="og:title"
+          content="Web & Mobile Development Experts | Your Company Name"
+        />
+        <meta
+          property="og:description"
+          content="Our team specializes in creating web and mobile applications with a focus on user experience and innovative solutions."
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
       >
         <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

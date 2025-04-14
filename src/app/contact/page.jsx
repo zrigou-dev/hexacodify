@@ -49,7 +49,7 @@ export default function ContactPage() {
         <div className="relative z-10 max-w-4xl mx-auto grid md:grid-cols-3 gap-10 px-6">
           {/* Email */}
           <motion.a
-            href="mailto:info@dev.com"
+            href="mailto:contact@hexacodify.com"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 30 }}
@@ -59,7 +59,7 @@ export default function ContactPage() {
           >
             <Mail className="mx-auto mb-4 w-10 h-10 text-yellow-400" />
             <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-            <p className="text-gray-300 underline">info@hexacodify.com</p>
+            <p className="text-gray-300 underline">contact@hexacodify.com</p>
           </motion.a>
 
           {/* Phone */}
