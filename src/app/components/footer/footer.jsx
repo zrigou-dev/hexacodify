@@ -69,7 +69,7 @@ export default function Footer() {
           <ul className="space-y-3">
             <li className="flex items-center space-x-3">
               <FaPhoneAlt className="text-yellow-400" />
-              <span>+212 767496526</span>
+              <span>+212 770502436</span>
             </li>
             <li className="flex items-center space-x-3">
               <FaEnvelope className="text-yellow-400" />
