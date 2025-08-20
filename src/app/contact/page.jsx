@@ -64,7 +64,7 @@ export default function ContactPage() {
 
           {/* Phone */}
           <motion.a
-            href="tel:+212767496526"
+            href="tel:+212770502436"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
@@ -72,12 +72,12 @@ export default function ContactPage() {
           >
             <Phone className="mx-auto mb-4 w-10 h-10 text-yellow-400" />
             <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-            <p className="text-gray-300 underline">+212 767496526</p>
+            <p className="text-gray-300 underline">+212 770502436</p>
           </motion.a>
 
           {/* WhatsApp */}
           <motion.a
-            href="https://wa.me/+212767496526"
+            href="https://wa.me/+212770502436"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 30 }}
